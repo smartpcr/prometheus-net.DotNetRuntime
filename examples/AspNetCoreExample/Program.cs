@@ -22,8 +22,8 @@ namespace AspNetCoreExample
             {
                 Console.WriteLine(e.ToString());
             }).StartCollecting();
-            var metricServer = new MetricServer(12204);
-            metricServer.Start();
+            //var metricServer = new MetricServer(12204);
+            //metricServer.Start();
             
             CreateWebHostBuilder(args).Build().Run();
         }
